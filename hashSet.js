@@ -1,6 +1,6 @@
 import LinkedList from "./linkedList.js";
 
-class HashSet {
+export default class HashSet {
   constructor() {
     this.loadFactor = 0.75;
     this.capacity = 16;
